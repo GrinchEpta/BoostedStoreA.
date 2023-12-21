@@ -80,25 +80,36 @@ img {
     margin: 24px;
     margin-left: 1374px;
     position: absolute;
+    transition: transform 0.2s;
 }
+    .img2:hover {
+        transform: scale(1.2);
+    }
 .img3 {
     margin: 24px;
     margin-left: 1402px; 
-    position: absolute;                    
+    position: absolute; 
+    transition: transform 0.2s;                   
 }
+    .img3:hover {
+        transform: scale(1.2);
+    }
 .text1 {
     margin: 22px 296px;
     color: #000;
-    
     font-style:normal;
     font-weight: 400;
     line-height: 21px; 
     letter-spacing: 1px;
     text-transform: uppercase;
     position: absolute;
-    font-size: clamp(9px,1vw,14px)
-
+    font-size: clamp(9px,1vw,14px);
+    transition: transform 0.4s;
 }
+    .text1:hover {
+        transform: scale(1.0);
+        color:#FF4A32;
+    }
 .text2 {
     margin: 22px 501px;
     color: #000;
@@ -110,7 +121,12 @@ img {
     letter-spacing: 1px;
     text-transform: uppercase;
     position: absolute;
+    transition: transition 0.4s;
 }
+    .text2:hover {
+        transform: scale(1.0);
+        color:#FF4A32;         
+    }
 .text3 {
     margin: 22px 678px ;
     color: #000;
@@ -122,7 +138,12 @@ img {
     letter-spacing: 1px;
     text-transform: uppercase;
     position: absolute;
+    transition: transform 0.4s;
 }
+    .text3:hover {
+        transform: scale(1.0);
+        color:#FF4A32;         
+    }
 .text4 {
     margin: 22px 801px;
     margin-right: 10px;
@@ -135,7 +156,12 @@ img {
     letter-spacing: 1px;
     text-transform: uppercase;
     position: absolute;
+    transition: transform 0.4s;
 }
+    .text4:hover {
+        transform: scale(1.0);
+        color:#FF4A32;         
+    }
 .text5 {
     margin: 25px 903px;
     margin-right: 10px;
@@ -146,7 +172,12 @@ img {
     font-style: normal;
     text-transform: uppercase;
     position: absolute;
+    transition: transform 0.4s;
 }
+    .text5:hover {
+        transform: scale(1.0);
+        color:#FF4A32;         
+    }
 
 /*-------section delivery-------*/
 
@@ -312,7 +343,7 @@ img {
                 position: absolute;
             }
                 .text_width22 {
-                    margin: 908px ;
+                    margin: 908px;
                     margin-left: 513px;
                     color: #000;
                     text-align: center;
@@ -344,18 +375,16 @@ img {
                             border-radius: 35px;
                             background: #FF4A32;
                             position: absolute;
+                            text-align: center;
+                            padding: 8px;
+                            font-size: 15px;
+                            font-weight: 700;
+                            transition: transform 0.4s;
                         }
-                            .text_logo_znak_228 {
-                                margin: 1037px;
-                                margin-left: 685px;
-                                color: #FFF;
-                                width: 69px;
-                                text-align: center;
-                                font-size: 15px;
-                                font-weight: 700;
-                                line-height: 22.5px;
-                                position: absolute;
-                            }
+                        .logo_znak_228:hover {
+                            transform: scale(1.1);
+                        }
+            
                                 .img-3_line_ling_1 {
                                     width: 380px;
                                     height: 380px;
@@ -399,18 +428,14 @@ img {
                                                     border-radius: 35px;
                                                     background: #FF4A32;
                                                     position: absolute;
+                                                    transition: transform 0.3s;
+                                                    text-align: center;
+                                                    padding: 7px;
                                                 }
-                                                    .text_logo-3_line_12 {
-                                                        margin: 1899px;
-                                                        margin-left: 966px;
-                                                        width: 69px;
-                                                        color: #FFF;
-                                                        text-align: center;
-                                                        font-size: 15px;
-                                                        font-weight: 400;
-                                                        line-height: 22.5px;
-                                                        position: absolute;
-                                                    }
+                                                .logo-3_line_12:hover {
+                                                    transform: scale(1.2);
+                                                }
+                                                    
                                                 .img_end_img_1 {
                                                     width: 480px;
                                                     height: 480px;
@@ -431,6 +456,7 @@ img {
                                             margin: 2039px;
                                             margin-left: 960px;
                                             position: absolute;
+                                            text-align: center;
                                         }
                                     .text_end_img_11 {
                                         margin: 2247px;
@@ -510,7 +536,9 @@ img {
                         margin: 2574px;
                         margin-left: 150px;
                         position: absolute;
+                        text-align: center;
                     }
+                                                      
                 .video_2 {
                     height: 304px;
                     width: 540px;
@@ -781,7 +809,11 @@ img {
     width: 19px;
     height: 25px;
     flex-shrink: 0;
+    transition: transform 0.2s;
 }
+        .logoTrio:hover {
+            transform: scale(1.4);
+        }
 .piss {
     margin: 3174px;
     margin-left: 10px;
@@ -798,7 +830,11 @@ img {
     width: 19px;
     height: 25px;
     flex-shrink: 0;
+    transition: transform 0.2s;
 }
+    .logoDuo:hover {
+        transform: scale(1.4);
+    }
 .piss11 {
     margin: 3174px;
     margin-left: 1386px;
@@ -958,7 +994,12 @@ img {
     position: absolute;
     margin: 90px;
     margin-left: 530px;
-}
+    transition: transform 0.2s;
+}   
+            .text-low2:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low10 {
     color: #000;
     font-size: 13px;
@@ -967,7 +1008,12 @@ img {
     position: absolute;
     margin: 110px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low10:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low3 {
     color: #000;
     font-size: 13px;
@@ -976,7 +1022,12 @@ img {
     position: absolute;
     margin: 130px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low3:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low4 {
     color: #000;
     font-size: 13px;
@@ -985,7 +1036,12 @@ img {
     position: absolute;
     margin: 150px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low4:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low5 {
     color: #000;
     font-size: 13px;
@@ -994,7 +1050,12 @@ img {
     position: absolute;
     margin: 170px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low5:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low6 {
     color: #000;
     font-size: 13px;
@@ -1003,7 +1064,12 @@ img {
     position: absolute;
     margin: 190px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low6:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low7 {
     color: #000;
     font-size: 13px;
@@ -1012,7 +1078,12 @@ img {
     position: absolute;
     margin: 210px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low7:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low8 {
     color: #000;
     font-size: 13px;
@@ -1021,7 +1092,12 @@ img {
     position: absolute;
     margin: 230px;
     margin-left: 530px;
+    transition: transform 0.2s;
 }
+            .text-low8:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low9 {
     color: #000;
     font-size: 13px;
@@ -1030,8 +1106,12 @@ img {
     position: absolute;
     margin:250px;
     margin-left: 530px;
-    
+    transition: transform 0.2s;
 }
+            .text-low9:hover {
+                transform: scale(1.1);
+                color:#FF4A32;
+            }
 .text-low11 {
     color: #000;
     font-size: 19px;
@@ -1124,7 +1204,15 @@ img {
     position: absolute;
     margin:159px;
     margin-left: 513px;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    padding: 8px;
+    transition: transform 0.4s;
 }
+            .banner-11:hover {
+                transform: scale(1.1);
+            }
 .banner-12 {
     width: 201px;
     height: 33px;
@@ -1133,27 +1221,17 @@ img {
     position: absolute;
     margin:159px;
     margin-left: 726px;
-}
-.banner-bukva-1 {
-    color: #FFF;
     text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 22.5px;
-    margin:164px;
-    margin-left: 560px;
-    position: absolute;
-}
-.banner-bukva-2 {
     color: #FFF;
-    text-align: center;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 22.5px;
-    margin:164px;
-    margin-left: 763px;
-    position: absolute;   
+    padding: 8px;
+    transition: transform 0.4s;
 }
+
+                .banner-12:hover {
+                    transform: scale(1.1);
+                }
+
 /*----------section sale----------*/
 
 .sale .container {
@@ -1223,42 +1301,74 @@ img {
     margin: 20px;
     margin-left: 978px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img11:hover {
+                transform: scale(1.2);
+            }
 .img22 {
     margin: 20px;
     margin-left: 1020px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img22:hover {
+                transform: scale(1.2);
+            }
 .img33 {
     margin: 20px;
     margin-left: 1062px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img33:hover {
+                transform: scale(1.2);
+            }
 .img44 {
     margin: 20px;
     margin-left: 1104px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img44:hover {
+                transform: scale(1.2);
+            }
 .img55 {
     margin: 20px;
     margin-left: 1146px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img55:hover {
+                transform: scale(1.2);
+            }
 .img66 {
     margin: 20px;
     margin-left: 1188px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img66:hover {
+                transform: scale(1.2);
+            }
 .img77 {
     margin: 20px;
     margin-left: 1230px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img77:hover {
+                transform: scale(1.2);
+            }
 .img88 {
     margin: 20px;
     margin-left: 1272px;
     position: absolute;
+    transition: transform 0.2s;
 }
+            .img88:hover {
+                transform: scale(1.2);
+            }
 
 .footer-menu {
     background-color: #000000;
@@ -3358,4 +3468,3 @@ img {
             height:100px;
         }
 }
-
